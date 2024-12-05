@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: cm-produto
+  name: cm-cliente
 data:
   DB_HOST: db-product.cswrxwzom0cg.us-east-1.rds.amazonaws.com
   DB_NAME: postgres
