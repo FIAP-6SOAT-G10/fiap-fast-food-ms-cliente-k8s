@@ -22,12 +22,12 @@ spec:
             - name: DB_USERNAME
               valueFrom:
                 secretKeyRef:
-                  name: secret-produto
+                  name: secret-customer
                   key: DB_USERNAME
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: secret-produto
+                  name: secret-customer
                   key: DB_PASSWORD
           envFrom:
             - configMapRef:
